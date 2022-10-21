@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "hn-app",
+    "name": "HN app",
     "slug": "hn-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -14,7 +14,9 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -22,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.georgewaller.hnapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "512aac98-ded2-462e-ab19-4b3d41e64f74"
+      }
     }
   }
 }
